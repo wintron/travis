@@ -19,6 +19,6 @@ def lower(s):
 
 def strip(s):
     """
-    The Amazing Manipulatron's version of s.lower
+    The Amazing Manipulatron's version of s.strip
     """
-    return s.lower()
+    return s.strip()
