@@ -1,11 +1,11 @@
 import unittest
 
-import travis
+import manipulatron
 
 
 class Test1(unittest.TestCase):
     def test_string_converted_to_upper_case(self):
-        self.assertEqual("HELLO", travis.upper("hello"))
-        
+        self.assertEqual("HELLO", manipulatron.upper("hello"))
+
     def test_string_converted_to_lower_case(self):
-        self.assertEqual("hello", travis.lower("HELLO"))
+        self.assertEqual("hello", manipulatron.lower("HELLO"))
