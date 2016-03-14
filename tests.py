@@ -11,4 +11,4 @@ class Test1(unittest.TestCase):
         self.assertEqual("hello", manipulatron.lower("HELLO"))
 
     def test_string_stripped(self):
-        self.assertEqual("hello", manipulatron.lower("   hello    "))
+        self.assertEqual("hello", manipulatron.strip("   hello    "))
