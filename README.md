@@ -2,4 +2,4 @@
 
 ### Build status
 
-![](https://travis-ci.org/swinton/muckin-about-with-travis.svg?branch=master)
+![](https://travis-ci.org/wintron/travis.svg?branch=master)
